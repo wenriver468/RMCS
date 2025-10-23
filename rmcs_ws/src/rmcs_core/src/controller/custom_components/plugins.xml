@@ -1,0 +1,11 @@
+<library path="libcomponent_a">
+  <class name="rmcs_core/controller/custom_components/ComponentA" type="rmcs_core::controller::custom_components::ComponentA" base_class_type="rmcs_executor::Component">
+    <description>Component A outputs sin(ωt) and cos(ωt).</description>
+  </class>
+</library>
+
+<library path="libcomponent_b">
+  <class name="rmcs_core/controller/custom_components/ComponentB" type="rmcs_core::controller::custom_components::ComponentB" base_class_type="rmcs_executor::Component">
+    <description>Component B sums sin(ωt) and cos(ωt).</description>
+  </class>
+</library>

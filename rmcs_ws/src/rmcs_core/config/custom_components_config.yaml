@@ -1,0 +1,9 @@
+component_a:
+  ros__parameters:
+    omega: 2.0
+value_broadcaster:
+  ros__parameters:
+    forward_list:
+      - /sin_output/data
+      - /cos_output/data
+      - /sum_output/data
